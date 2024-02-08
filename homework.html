@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title> Lab 3 Homework</title>
+    </head>
+    <body>
+        <script>
+            function change_color() {
+                document.getElementById("my_text").style['color'] = "red";
+            }
+            function change_color_again(){
+                document.getElementById("my_text").style.color = "blue";
+            }
+
+        </script>
+        <p id="my_text">
+            Docker is a set of platform as a service products that use OS-level virtualisation to deliver software in packages
+            called containers. The service has both free and premium tiers. The software that hosts the container is called Docker
+            Container.
+        </p>
+        <input type="button" value="Click the button" onclick="change_color()">
+        <input type="button" value="Another button" onclick="change_color_again()">
+    </body>
+</html>
