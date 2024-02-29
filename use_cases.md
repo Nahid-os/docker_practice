@@ -151,4 +151,3 @@ A. If login fails, the system denies access and offers password reset.
 **Postconditions**: Employee accesses data for authorized tasks.
 
 **Frequency of Occurrence**: Daily, as part of regular job functions.
-"""
