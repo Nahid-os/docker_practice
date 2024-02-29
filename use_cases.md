@@ -149,3 +149,6 @@ A. If the data is not up-to-date, the system indicates the last update timestamp
 A. If login fails, the system denies access and offers password reset.
 
 **Postconditions**: Employee accesses data for authorized tasks.
+
+**Frequency of Occurrence**: Daily, as part of regular job functions.
+"""
